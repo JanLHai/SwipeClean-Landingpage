@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:title" content="Title of the project" />
+    <meta property="og:title" content="SwipeClean" />
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://github.com/PaulleDemon" />
@@ -28,27 +28,20 @@
 
 <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-[#fff]">
     <header
-        class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] max-lg:tw-mr-auto max-lg:tw-px-4 lg:tw-justify-around">
-        <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="">
-            <img src="./assets/logo.png" alt="logo" class="tw-object tw-h-full tw-w-full" />
+        class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] tw-mt-5 max-lg:tw-mr-auto max-lg:tw-px-4 lg:tw-justify-around">
+        <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="index.html">
+            <img src="./assets/Logo-klein.png" alt="logo" class="tw-object tw-h-full tw-w-full" />
         </a>
         <div class="collapsible-header animated-collapse max-lg:tw-shadow-md" id="collapsed-header-items">
             <div
                 class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-black max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center">
-                <a class="header-links" href=""> About us </a>
+                <!--<a class="header-links" href=""> About us </a>
                 <a class="header-links" href="#pricing"> Pricing </a>
                 <a class="header-links" href=""> Features </a>
                 <a class="header-links" href=""> Blog </a>
-                <a class="header-links" href=""> Contact us </a>
+                <a class="header-links" href=""> Contact us </a>-->
             </div>
-            <div
-                class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center">
-                <a href="" aria-label="signup"
-                    class="tw-rounded-md tw-bg-primary tw-px-3 tw-py-2 tw-text-white tw-transition-transform tw-duration-[0.3s] hover:tw-translate-x-2">
-                    <span>Download</span>
-                    <i class="bi bi-apple"></i>
-                </a>
-            </div>
+
         </div>
         <button class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-black lg:tw-hidden"
             onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
@@ -61,23 +54,24 @@
             <div class="tw-flex tw-flex-col tw-place-content-center">
                 <div
                     class="tw-text-6xl tw-font-semibold tw-uppercase tw-leading-[80px] max-lg:tw-text-4xl max-md:tw-leading-snug">
-                    <span> Connect instantly </span>
+                    <span> SWIPE-Clean </span>
                     <br />
-                    <span class="tw-text-primary"> with customers </span>
+                    <span class="tw-text-primary"> Fotos einfach aufgeräumt </span>
                 </div>
                 <div class="tw-mt-10 tw-max-w-[450px] tw-p-2 tw-text-justify max-lg:tw-max-w-full">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing
-                    elit. Error adipisci corrupti accusamus reiciendis
-                    similique assumenda nostrum fuga dicta vitae ipsum.
+                    Herzlichen Glückwunsch zur kostenlosen und werbefreien SWIPE-Clean App. Damit ist dein Fotoalbum im
+                    Handumdrehen
+                    aufgeräumt. Zur Sicherheit bekommst du alle zu löschenden Bilder final angezeigt. Damit behältst du
+                    die Kontrolle, dass
+                    keine Bilder ungewünscht gelöscht werden.
                 </div>
 
                 <div class="tw-mt-4 tw-flex tw-place-items-center tw-gap-4 tw-overflow-hidden tw-p-2">
-                    <a class="btn tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]" href="">
-                        Get started
-                    </a>
-                    <a class="btn !tw-bg-[#c8cbf984] !tw-text-primary tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
-                        href="">
-                        <span>Learn more</span>
+                    <a aria-label="signup"
+                        class="btn tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
+                        href="https://testflight.apple.com/join/17HeKTd8">
+                        <span style="padding-right: 7px;">Download Beta</span>
+                        <i class="bi bi-apple"></i>
                     </a>
                 </div>
             </div>
@@ -86,16 +80,17 @@
                 class="tw-flex tw-w-full tw-max-w-[50%] tw-place-content-center tw-place-items-center tw-overflow-hidden max-lg:tw-max-w-[unset]">
                 <div
                     class="tw-flex tw-max-h-[580px] tw-min-h-[450px] tw-min-w-[350px] tw-max-w-[650px] tw-overflow-hidden max-lg:tw-h-fit max-lg:tw-max-h-[320px] max-lg:tw-min-h-[180px] max-lg:tw-w-[320px] max-lg:tw-min-w-[320px]">
-                    <img src="./assets/images/home/iphone.png" alt="app"
-                        class="tw-h-full tw-w-full tw-object-contain" />
+                    <img src="./assets/images/home/bild.png" alt="app" class="tw-h-full tw-w-full tw-object-contain" />
                 </div>
             </div>
         </div>
     </section>
+
+    <!--
     <section
         class="tw-relative tw-flex tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
         id="numbers">
-        <div class="tw-flex tw-flex-col tw-place-items-center tw-gap-8">
+        div class="tw-flex tw-flex-col tw-place-items-center tw-gap-8">
             <h3 class="tw-text-3xl">In numbers</h3>
             <div class="tw-flex tw-w-full tw-place-content-center tw-gap-10 max-md:tw-flex-col" id="numbers-container">
                 <div>
@@ -118,6 +113,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <section
         class="tw-relative tw-flex tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
@@ -125,63 +121,51 @@
         <div class="tw-mt-8 tw-flex tw-flex-col tw-place-items-center tw-gap-5">
             <div class="tw-mt-5 tw-flex tw-flex-col tw-gap-3 tw-text-center">
                 <h3 class="tw-text-xl tw-text-primary">
-                    Features loved by our clients
+                    Diese Besonderheiten machen die App aus
                 </h3>
-                <h2 class="tw-text-4xl tw-font-semibold">Features</h2>
+                <h2 class="tw-text-4xl tw-font-semibold">Besonderheiten</h2>
             </div>
             <div
                 class="tw-mt-6 tw-flex tw-max-w-[60%] tw-flex-wrap tw-place-content-center tw-gap-2 max-lg:tw-flex-col">
                 <div class="tw-flex tw-h-[250px] tw-w-[350px] tw-flex-col tw-gap-2 tw-p-4 tw-text-center">
                     <!-- <img src="./assets/images/home/sample.jpg" 
                                 alt="feature1"> -->
-                    <i class="bi bi-boombox-fill tw-text-5xl tw-text-primary"></i>
+                    <i class="bi bi-hand-index-fill tw-text-5xl tw-text-primary"></i>
                     <h3 class="tw-text-2xl tw-font-semibold">Feature 1</h3>
                     <div class="tw-text-[#595959]">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quos, voluptates numquam quam expedita
-                        mollitia possimus. Quos tempora placeat pariatur
-                        est!
+                        Einfache bedienung
                     </div>
                 </div>
                 <div class="tw-flex tw-h-[250px] tw-w-[350px] tw-flex-col tw-gap-2 tw-p-4 tw-text-center">
                     <!-- <img src="./assets/images/home/sample.jpg" 
                                 alt="feature1"> -->
-                    <i class="bi bi-award-fill tw-text-5xl tw-text-primary"></i>
+                    <i class="bi bi-floppy2-fill tw-text-5xl tw-text-primary"></i>
                     <h3 class="tw-text-2xl tw-font-semibold">Feature 2</h3>
                     <div class="tw-text-[#595959]">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quos, voluptates numquam quam expedita
-                        mollitia possimus. Quos tempora placeat pariatur
-                        est!
+                        Freigeben von Speicher in der Gallerie
                     </div>
                 </div>
                 <div class="tw-flex tw-h-[250px] tw-w-[350px] tw-flex-col tw-gap-2 tw-p-4 tw-text-center">
                     <!-- <img src="./assets/images/home/sample.jpg" 
                                 alt="feature1"> -->
-                    <i class="bi bi-book-fill tw-text-5xl tw-text-primary"></i>
+                    <i class="bi bi-megaphone-fill tw-text-5xl tw-text-primary"></i>
                     <h3 class="tw-text-2xl tw-font-semibold">Feature 3</h3>
                     <div class="tw-text-[#595959]">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quos, voluptates numquam quam expedita
-                        mollitia possimus. Quos tempora placeat pariatur
-                        est!
+                        werbefreien
                     </div>
                 </div>
                 <div class="tw-flex tw-h-[250px] tw-w-[350px] tw-flex-col tw-gap-2 tw-p-4 tw-text-center">
                     <!-- <img src="./assets/images/home/sample.jpg" 
                                 alt="feature1"> -->
-                    <i class="bi bi-briefcase-fill tw-text-5xl tw-text-primary"></i>
+                    <i class="bi bi-cash-coin tw-text-5xl tw-text-primary"></i>
                     <h3 class="tw-text-2xl tw-font-semibold">Feature 4</h3>
                     <div class="tw-text-[#595959]">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quos, voluptates numquam quam expedita
-                        mollitia possimus. Quos tempora placeat pariatur
-                        est!
+                        Kostenlos
                     </div>
                 </div>
+                <!--
                 <div class="tw-flex tw-h-[250px] tw-w-[350px] tw-flex-col tw-gap-2 tw-p-4 tw-text-center">
-                    <!-- <img src="./assets/images/home/sample.jpg" 
-                                alt="feature1"> -->
+                    
                     <i class="bi bi-credit-card-2-front-fill tw-text-5xl tw-text-primary"></i>
                     <h3 class="tw-text-2xl tw-font-semibold">Feature 5</h3>
                     <div class="tw-text-[#595959]">
@@ -192,8 +176,7 @@
                     </div>
                 </div>
                 <div class="tw-flex tw-h-[250px] tw-w-[350px] tw-flex-col tw-gap-2 tw-p-4 tw-text-center">
-                    <!-- <img src="./assets/images/home/sample.jpg" 
-                            alt="feature1"> -->
+                   
                     <i class="bi bi-fire tw-text-5xl tw-text-primary"></i>
                     <h3 class="tw-text-2xl tw-font-semibold">Feature 6</h3>
                     <div class="tw-text-[#595959]">
@@ -203,15 +186,17 @@
                         est!
                     </div>
                 </div>
+            -->
             </div>
         </div>
     </section>
 
+    <!--
     <section class="tw-mt-5 tw-flex tw-w-full tw-flex-col tw-place-items-center tw-p-[2%]">
         <h3 class="tw-text-3xl tw-font-medium tw-text-primary max-md:tw-text-2xl">
             What our clients say
         </h3>
-        <!-- Testimonials -->
+        
         <div class="tw-mt-8 tw-gap-10 tw-space-y-8 max-md:tw-columns-1 lg:tw-columns-2 xl:tw-columns-3">
             <div
                 class="tw-flex tw-h-fit tw-w-[350px] tw-break-inside-avoid tw-flex-col tw-rounded-lg tw-p-4 tw-shadow-lg max-lg:tw-w-[320px]">
@@ -331,12 +316,13 @@
             </div>
         </div>
     </section>
-
+-->
+    <!--
     <section class="tw-mt-5 tw-flex tw-w-full tw-flex-col tw-place-items-center tw-p-[2%]" id="pricing">
         <h3 class="tw-text-3xl tw-font-medium tw-text-primary max-md:tw-text-2xl">
             Simple pricing
         </h3>
-        <!-- pricing -->
+       
         <div class="tw-mt-10 tw-flex tw-flex-wrap tw-place-content-center tw-gap-8 max-lg:tw-flex-col">
             <div
                 class="tw-flex tw-w-[380px] tw-flex-col tw-place-items-center tw-gap-2 tw-rounded-lg tw-p-8 tw-shadow-xl max-lg:tw-w-[320px]">
@@ -410,7 +396,6 @@
         <h3 class="tw-text-3xl tw-font-medium tw-text-primary max-md:tw-text-2xl">
             Read more
         </h3>
-        <!-- pricing -->
         <div class="tw-mt-10 tw-flex tw-flex-wrap tw-place-content-center tw-gap-8 max-lg:tw-flex-col">
             <a href=""
                 class="tw-flex tw-h-[300px] tw-w-[350px] tw-flex-col tw-place-items-center tw-gap-2 tw-overflow-clip tw-rounded-lg tw-p-2 tw-shadow-xl max-lg:tw-w-[300px]">
@@ -456,7 +441,8 @@
             </a>
         </div>
     </section>
-
+    -->
+    <!--
     <section
         class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-gap-[10%] tw-p-[5%] tw-px-[10%]">
         <div class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-gap-3">
@@ -475,18 +461,22 @@
             </div>
         </div>
     </section>
+-->
 
     <footer
         class="tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-3 tw-p-[5%] tw-px-[10%] tw-text-black max-md:tw-flex-col">
         <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-place-items-center tw-gap-6 max-md:tw-w-full">
-            <img src="./assets/logo.png" alt="logo" srcset="" class="tw-max-w-[120px]" />
+            <img src="./assets/logo.png" alt="logo" srcset="" class="tw-max-w-[180px]" />
             <div>
-                2 Lord Edward St,
+                Jan Haider
+                <br>
+                Elsa-Hammer-Weg 48
                 <br />
-                D02 P634,
+                88048 Friedrichshafen
                 <br />
-                United Kingdom
+                Deutschland
             </div>
+            <!--
             <div class="tw-mt-3 tw-text-lg tw-font-semibold">Follow us</div>
             <div class="tw-flex tw-gap-4 tw-text-2xl">
                 <a href="" aria-label="Facebook">
@@ -499,16 +489,19 @@
                     <i class="bi bi-instagram"></i>
                 </a>
             </div>
+        -->
         </div>
 
         <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
             <h2 class="tw-text-3xl max-md:tw-text-xl">Resources</h2>
             <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-                <a href="" class="footer-link">About us</a>
+                <!--<a href="" class="footer-link">About us</a>
                 <a href="" class="footer-link">FAQ</a>
                 <a href="" class="footer-link">Contact Us</a>
-                <a href="" class="footer-link">Blogs</a>
-                <a href="PrivacyPolice.html" class="footer-link">Privacy policy</a>
+                <a href="" class="footer-link">Blogs</a>-->
+                <a href="PrivacyPolice.html" class="footer-link">Privacy policy der App</a>
+                <a href="Datenschutzerklaerung.html" class="footer-link">Datenschutzerklärung</a>
+
             </div>
         </div>
     </footer>
